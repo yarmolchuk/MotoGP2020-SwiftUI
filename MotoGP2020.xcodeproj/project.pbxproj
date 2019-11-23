@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		3229B7F7238880CA00908B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B7F6238880CA00908B11 /* AppDelegate.swift */; };
 		3229B7F9238880CA00908B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B7F8238880CA00908B11 /* SceneDelegate.swift */; };
-		3229B7FB238880CA00908B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B7FA238880CA00908B11 /* ContentView.swift */; };
+		3229B7FB238880CA00908B11 /* RidersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B7FA238880CA00908B11 /* RidersListView.swift */; };
 		3229B7FD238880CB00908B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3229B7FC238880CB00908B11 /* Assets.xcassets */; };
 		3229B800238880CB00908B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3229B7FF238880CB00908B11 /* Preview Assets.xcassets */; };
 		3229B803238880CB00908B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3229B801238880CB00908B11 /* LaunchScreen.storyboard */; };
+		3229B80B238886BF00908B11 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B80A238886BF00908B11 /* Rider.swift */; };
+		3229B80D238923E400908B11 /* RiderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229B80C238923E400908B11 /* RiderDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3229B7F3238880CA00908B11 /* MotoGP2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoGP2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3229B7F6238880CA00908B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3229B7F8238880CA00908B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3229B7FA238880CA00908B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3229B7FA238880CA00908B11 /* RidersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersListView.swift; sourceTree = "<group>"; };
 		3229B7FC238880CB00908B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3229B7FF238880CB00908B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3229B802238880CB00908B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3229B804238880CB00908B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3229B80A238886BF00908B11 /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		3229B80C238923E400908B11 /* RiderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				3229B7F6238880CA00908B11 /* AppDelegate.swift */,
 				3229B7F8238880CA00908B11 /* SceneDelegate.swift */,
-				3229B7FA238880CA00908B11 /* ContentView.swift */,
+				3229B7FA238880CA00908B11 /* RidersListView.swift */,
+				3229B80C238923E400908B11 /* RiderDetail.swift */,
+				3229B80A238886BF00908B11 /* Rider.swift */,
 				3229B7FC238880CB00908B11 /* Assets.xcassets */,
 				3229B801238880CB00908B11 /* LaunchScreen.storyboard */,
 				3229B804238880CB00908B11 /* Info.plist */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3229B80B238886BF00908B11 /* Rider.swift in Sources */,
 				3229B7F7238880CA00908B11 /* AppDelegate.swift in Sources */,
 				3229B7F9238880CA00908B11 /* SceneDelegate.swift in Sources */,
-				3229B7FB238880CA00908B11 /* ContentView.swift in Sources */,
+				3229B80D238923E400908B11 /* RiderDetail.swift in Sources */,
+				3229B7FB238880CA00908B11 /* RidersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
